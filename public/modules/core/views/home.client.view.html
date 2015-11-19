@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SchoolHero</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<section data-ng-controller="HomeController">
+	<div class="jumbotron text-center">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+				
+				<img alt="logo.png" class="img-responsive text-center" alt="Cinque Terre" width="404" height="36" src="modules/core/img/brand/logo.png" />
+
+				
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<p class="lead">
+				Descubre tu perfil academico y se parte de nuestra comunidad 
+			</p>
+		</div>
+		<div class="row">
+			<p>
+			<br>
+       <a class="btn btn-primary btn-lg" href="/#!/signin" target="_blank">Realizar Test</a>
+       
+
+				
+			</p>
+		</div>
+	</div>
+
+
+<style>
+/* Botones de Redes Sociales - Ciudad Blogger */
+.social_bookmarks_container {
+width:100%;
+height:65px;
+padding:0;
+position:relative;
+}
+.social_bookmarks {
+position:relative;
+float:left;
+margin:0;
+padding:0;
+}
+.social_bookmarks li {
+margin:0 0 1px 1px;
+height:57px;
+width:57px;
+list-style:none;
+float:left;
+padding:0;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+.social_bookmarks li a {
+float:left;
+width:57px;
+line-height:24px;
+display: block;
+text-indent: -99999px;
+margin:0px;
+outline: none;
+padding:0;
+min-height:57px;
+height:100%;
+text-decoration:none;
+}
+.social_bookmarks .iconrss{background: #A4A4A4 url(//lh6.googleusercontent.com/-s8sIx3OX2WI/U4vC1nmgr0I/AAAAAAAALK4/W3Z3qXMwrCg/s114/icon-rss.png) top left no-repeat;}
+.social_bookmarks .iconrssmail{background: #BDBDBD url(//lh5.googleusercontent.com/-H4iUybdCAyU/U4vC1yQWu1I/AAAAAAAALLE/fTpR7eN4cIw/s114/icon-rssmail.png) top left no-repeat;}
+.social_bookmarks .icontwitter{background: #D8D8D8 url(//lh6.googleusercontent.com/-4TshwJW7hIE/U4vC2JM25AI/AAAAAAAALLI/tcIkpheXrYU/s114/icon-twitter.png) top left no-repeat;}
+.social_bookmarks .iconfacebook{background: #E6E6E6 url(//lh5.googleusercontent.com/-nt-UdZG1ns0/U4vC1v57lwI/AAAAAAAALLQ/pAOWjEBSnSg/s114/icon-facebook.png) top left no-repeat;}
+.social_bookmarks .icongplus{background: #F1F1F1 url(//lh6.googleusercontent.com/-brT53y4GgMs/U4vC1UPpmFI/AAAAAAAALK8/vRxosS7GGKs/s114/icon-gplus.png) top left no-repeat;}
+.social_bookmarks .iconfacebook:hover{background-position:center -57px; background-color: #37589b;}
+.social_bookmarks .icontwitter:hover {background-position:center -57px; background-color: #46d4fe;}
+.social_bookmarks .icongplus:hover {background-position:center -57px; background-color: #de5a49;}
+.social_bookmarks .iconrss:hover{background-position:center -57px; background-color: #ff6600;}
+.social_bookmarks .iconrssmail:hover{background-position:center -57px; background-color: #FFDE00;}
+.social_bookmarks li:hover a{background: transparent url(//lh4.googleusercontent.com/-XNviZ_JqvyU/U4vDMDFAX8I/AAAAAAAALLk/E4VIJr1onlo/s57/icon-social-reflect.png) no-repeat;
+}
+
+</style>
+<span class="pull-right">
+<div class='social_bookmarks_container'>
+<ul class='social_bookmarks'>
+<li class='icontwitter'>
+<a href='https://twitter.com/alejandro_radaj'>
+Twitter
+</a>
+</li>
+<li class='iconfacebook'>
+<a href='http://facebook.com/'>
+Facebook
+</a>
+</li>
+<li class='icongplus'>
+<a href='http://plus.google.com/'>
+Google Plus
+</a>
+</li>
+</ul>
+</div>
+</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <div class="row">
+		<div class="col-md-3">
+			<h2>
+				<strong>M</strong>ongoDB
+			</h2>
+			<p><a target="_blank" href="http://mongodb.org/">MongoDB</a> is a database. MongoDB's <a target="_blank" href="http://docs.mongodb.org/manual/">great manual</a> is the place to get started with NoSQL and MongoDB.</p>
+		</div>
+		<div class="col-md-3">
+			<h2>
+				<strong>E</strong>xpress
+			</h2>
+			<p><a target="_blank" href="http://expressjs.com/"> Express</a> is an app server. Check out <a target="_blank" href="http://expressjs.com/guide.html">The Express Guide</a> or <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow</a> for more info.</p>
+		</div>
+		<div class="col-md-3">
+			<h2>
+				<strong>A</strong>ngularJS
+			</h2>
+			<p>AngularJS is web app framework. <a target="_blank" href="http://angularjs.org/">Angular's website</a> offers a lot. The <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a> and <a target="_blank" href="https://egghead.io/">Egghead Videos</a> are great resources.</p>
+		</div>
+		<div class="col-md-3">
+			<h2>
+				<strong>N</strong>ode.js
+			</h2>
+			<p><a target="_blank" href="http://nodejs.org/">Node.js</a> is a web server. Node's website and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">stackOverflow thread</a> offer excellent starting points to get to grasps with node.</p>
+		</div>
+	</div>
+	<div class="well">
+		<h2>MEAN.JS Documentation</h2>
+		<p>
+			Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
+			<ul>
+				<li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
+				</li>
+				<li><a target="_blank" href="http://meanjs.org/generator.html">Yeoman Generator</a>
+				</li>
+				<li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
+				</li>
+				<li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
+				</li>
+				<li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
+				</li>
+				<li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
+				</li>
+			</ul>
+		</p>
+	</div>
+	<br>Enjoy &amp; Keep Us Updated,
+	<br>The MEAN.JS Team. -->
+</section>
+
+
+</body>
+</html>
